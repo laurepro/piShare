@@ -20,3 +20,13 @@ pour une clé/disque USB inséré, avec le nom "CLE-TEST", l'appareil est dispon
     \\hostname\Public\CLE_TEST
     
 n.b. hostname correspond au nom du raspberry
+
+## Sources
+
+USB automount
+
+    https://www.andreafortuna.org/2019/06/26/automount-usb-devices-on-linux-using-udev-and-systemd/
+    
+Samba
+    
+    https://raspberry-pi.fr/raspberry-pi-nas-samba/

@@ -44,7 +44,7 @@ do_mount()
     fi
 	
     # Bonus track: send desktop notification to user
-    sudo -u andrea DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send "Device ${DEVICE} mounted at ${MOUNT_POINT}"
+    # sudo -u andrea DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send "Device ${DEVICE} mounted at ${MOUNT_POINT}"
 }
 
 do_unmount()

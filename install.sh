@@ -12,6 +12,7 @@ apt install samba samba-common-bin
 # copy udev files
 cd "${0%/*}"
 cp ./install/usb-mount.sh /usr/local/bin/usb-mount.sh
+chmod +x /usr/local/bin/usb-mount.sh
 cp ./install/usb-mount@.service /etc/systemd/system/usb-mount@.service
 cp /install/99-local.rules /etc/udev/rules.d/99-local.rules
 
